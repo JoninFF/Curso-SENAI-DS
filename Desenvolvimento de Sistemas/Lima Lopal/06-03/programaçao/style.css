@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Tagalog&family=Oswald:wght@200..700&family=Playwrite+IT+Moderna:wght@100..400&family=Ponomar&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap');
+
+.texto2{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "width" 100;
+}
+
+.texto3{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.texto3{
+    font-size: small     ;
+    text-align: right;
+    text-transform: lowercase;
+    letter-spacing: 0.0em;
+    line-height: 1.5;
+}
+
+.link:hover{
+    color: black;
+}
+
+.Botão{
+    padding: 50px;
+    text-align: center;
+}
+
+.Botão h1{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.Botão h1:hover{
+    transform: scale(1.5);
+    transition: 0.9s;
+    color: orange;
+    background-color: black;
+    cursor: pointer;
+}
+
+.Botão h1 {
+    transform: scale(1); /* Tamanho original */
+    transition: 0.9s;
+}

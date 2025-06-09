@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    inteiro N
+    escreva("Informe um número inteiro: ")
+    leia(N)
+
+
+    inteiro contador = 1    
+    inteiro soma = 0
+    enquanto (contador <= N)
+    {
+        soma = (soma + contador)
+        contador = (contador + 1)
+    }
+    escreva("A soma é " + soma)
+  }
+}

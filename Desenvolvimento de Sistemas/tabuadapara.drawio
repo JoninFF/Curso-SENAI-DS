@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0">
+  <diagram name="Página-1" id="YKEVi4RtC_dFW7bzgH-S">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1FXNlwzeiDIRCjPtXJh9-2" value="Inicio" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="200" y="70" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1FXNlwzeiDIRCjPtXJh9-3" value="Fim" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1FXNlwzeiDIRCjPtXJh9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1FXNlwzeiDIRCjPtXJh9-4" target="1FXNlwzeiDIRCjPtXJh9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1FXNlwzeiDIRCjPtXJh9-4" value="Numero" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=13;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="200" y="130" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1FXNlwzeiDIRCjPtXJh9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1FXNlwzeiDIRCjPtXJh9-2" target="1FXNlwzeiDIRCjPtXJh9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1FXNlwzeiDIRCjPtXJh9-6" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Tabuada do 1 o 10 do número&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="135" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

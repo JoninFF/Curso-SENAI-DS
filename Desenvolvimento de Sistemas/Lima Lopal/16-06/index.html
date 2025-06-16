@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carrinho de Compras</title>
+  <link rel="stylesheet" href="index.css" />
+  <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Atividade de Compras</h1>
+    </header>
+  <div class="parent">
+    <div class="div1"></div>
+    <div class="tudo">
+      <div class="item">
+        <img src="ec00c9f479847bfef4f99b8c7857f2bf-gpMedium.jpg" alt="Zidane" />
+        <h1>Zidane</h1>
+        <p>Preco: R$100,00</p>
+        Quantidade: <input id="qty-zidane" type="number" value="1" min="1" max="10" />
+        <button onclick="adicionarAoCarrinho('Zidane', '100,00', 'qty-zidane')">Adicionar ao Carrinho</button>
+      </div>
+      <div class="item">
+        <img src="images (1).jpg" alt="Jay-Jay Okocha" />
+        <h1>Jay-Jay Okocha ☠</h1>
+        <p>Preco: R$100,00</p>
+        Quantidade: <input id="qty-okocha" type="number" value="1" min="1" max="10" />
+        <button onclick="adicionarAoCarrinho('Jay-Jay Okocha', '100,00', 'qty-okocha')">Adicionar ao Carrinho</button>
+      </div>
+      <div class="item">
+        <img src="images (2).jpg" alt="Antony prime" />
+        <h1>Antony prime</h1>
+        <p>Preco: R$100,00</p>
+        Quantidade: <input id="qty-antony" type="number" value="1" min="1" max="10" />
+        <button onclick="adicionarAoCarrinho('Antony prime', '100,00', 'qty-antony')">Adicionar ao Carrinho</button>
+      </div>
+      <div class="item">
+        <img src="ronaldinho-world-cup-if7z0n9rugvunluk.jpg" alt="Dybala" />
+        <h1>Dybala</h1>
+        <p>Preco: R$100,00</p>
+        Quantidade: <input id="qty-dybala" type="number" value="1" min="1" max="10" />
+        <button onclick="adicionarAoCarrinho('Dybala', '100,00', 'qty-dybala')">Adicionar ao Carrinho</button>
+      </div>
+      <div class="item">
+        <img src="images.jpg" alt="Messi" />
+        <h1>Messi</h1>
+        <p>Preco: R$100,00</p>
+        Quantidade: <input id="qty-messi" type="number" value="1" min="1" max="10" />
+        <button onclick="adicionarAoCarrinho('Messi', '100,00', 'qty-messi')">Adicionar ao Carrinho</button>
+      </div>
+    </div>
+
+    <div class="cart">
+      <h2>Carrinho de Compras</h2>
+      <table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse;">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Valor Unitario</th>
+            <th>Quantidade</th>
+            <th>Subtotal</th>
+          </tr>
+        </thead>
+        <tbody class="cart-body">
+          <!-- Itens do carrinho aparecem aqui -->
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3" style="text-align: right;">Total:</td>
+            <td id="total-value">R$0,00</td>
+          </tr>
+          <tr>
+            <td colspan="3" style="text-align: right;">
+              Desconto (%):
+              <input type="number" id="discount-percentage" min="0" max="100" value="0" style="width: 60px" oninput="atualizarCarrinho()" />
+            </td>
+            <td id="discount-amount">R$0,00</td>
+          </tr>
+          <tr>
+            <td colspan="3" style="text-align: right; font-weight: bold;">Valor Final:</td>
+            <td id="final-total" style="font-weight: bold;">R$0,00</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+
+  
+</body>
+</html>

@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+
+
+
+.section2 .opcoes2{
+    width: 10px;
+    margin-top: 0vh;
+    width: 5px;
+    margin-left: 30vw;
+}
+
+
+
+.descricao{
+    margin-left: -35vw;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height:120px;
+    margin-top: -23vh;
+    margin-right: -20vw;
+}
+
+.section1{
+ width: 20%;
+ text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grupo{
+    display: flex;
+   font-size: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+
+
+
+
+.opcoes3{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    width: 100%;
+    justify-content: start;
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+
+
+
+
+
+.opcoes1{
+    display: flex;
+     justify-content: start;   
+     list-style: none;
+    gap: 15px;
+    margin-left: 5vw; 
+}
+
+
+
+.opcoes2{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    width: 100%;
+    justify-content: start;
+    margin-top: 2vh;
+    margin-left: 47vw;
+}
+
+.opcoes{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    width: 100%;
+    justify-content: end;
+    margin-top: 2vh;
+    margin-right: 2vw;
+}
+
+header{
+    display: flex;
+    justify-content: start; 
+    gap: 45px;
+    background-color: rgb(67, 67, 67);
+    color: white;
+}
+
+
+h1{
+    font-size: 230%;
+    margin: 0px;
+    margin-left: 3vw;
+}
+
+h2{
+    font-size: 100%;
+    margin: 0px;
+    margin-left: 4vw;
+}
+
+.pesquisa{
+    width: 120%;
+    height: 30px;
+    margin-top: 2vh;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+

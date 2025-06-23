@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.img1{
+    width: 40px;
+    margin-left: 20px;
+
+}
+.aa{
+    margin-left: 70px;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    width: 100%;
+    justify-self: flex-end;
+    gap: 10px;
+}
+
+
+
+    
+.segundo{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+
+.logonike{
+    width: 5%;
+     margin-left: 90px;
+}
+
+.heart{
+    width: 20px;
+    height: 20px;
+}
+.maleta{
+    width: 20px;
+    height: 20px;
+   
+}
+
+.segundomenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 125%;
+    width: 60%;
+}
+
+.pesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    gap: 10px;
+}
+
+.buscar{
+    height: 5vh;
+    width: 12vw;
+    border-radius: 30px;
+    outline: none;
+    border: solid 2px black;
+    padding-left: 20px;
+}

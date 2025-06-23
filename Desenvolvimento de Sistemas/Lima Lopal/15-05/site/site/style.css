@@ -1,0 +1,38 @@
+input{
+    text-align: center;    
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center   ;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+}
+
+.user{
+    position: relative;
+    left: 10px;
+    top:-50px;
+    flex-direction: column;
+    width: 150px;
+    
+}
+.login{
+    width: 100px;
+    border-radius: 20px;
+    position: absolute;
+    left: 35px;
+}
+
+.subir{
+    position: absolute;
+    top: 80px;
+    left: 230px;
+
+}
+
+
+

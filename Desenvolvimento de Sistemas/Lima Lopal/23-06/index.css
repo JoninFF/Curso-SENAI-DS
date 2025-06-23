@@ -1,0 +1,28 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15vh;
+    margin-left: 28vw;
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(133, 133, 133);
+    height: 80vh;
+    width: 40vw;
+    border-radius: 75px;
+}
+
+ input{
+    border-radius: 30px;
+    height: 10vh;
+    width: 20vw;
+ }
+
+ .log{
+    color: white;
+    background-color: red;
+    border-radius: 30px;
+    height: 8vh;
+    width: 10vw;
+ }
